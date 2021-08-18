@@ -29,7 +29,7 @@
         },
         "USER_SESSION": {
             "description": "A Pyrogram User Session String. Generated From @PyrogramStringBot",
-            "value": ""
+            "value": "BQB0pvKFvhvyPVXrdOVP_rYXmoaAHRwq9UwNptZW5LqlKjbgBfpPEJMPkBKMOooe3naO7g-s23Y0hbnUacHsSwlN5ULh8Aep65IHYk2LuxrtEUhQUwq7uGJwOFxz2ev7XHfTRZSjcChH0Aj48foOwk-4j65hbuAE10Zac7HSdIPm0yd50wj5ti8M3rt_Ip30IjAeK_IDsMN6lr4iwdMmg2M2539dVLj_kyA3NB5r6YegKDJgnmXIGrg0Au93ZXfC3KT4kSR52xaV4maSYLbrcCb_C69dx185dHXUbw9Nrau7M9iKmL7kJxOdu08z6aaReRbYKnQ1yvO6MxBqeWErNSc3RdF0gAA"
         }
     },
     "buildpacks": [
