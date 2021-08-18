@@ -13,11 +13,11 @@
     "env": {
         "APP_ID": {
             "description": "Your APP ID From my.telegram.org or @UseTGXBot",
-            "value": ""
+            "value": "1313697"
         },
         "API_HASH": {
             "description": "Your API Hash From my.telegram.org or @UseTGXBot",
-            "value": ""
+            "value": "9f1f1ed9bb3585823c77e1953d3b102d"
         },
         "BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
