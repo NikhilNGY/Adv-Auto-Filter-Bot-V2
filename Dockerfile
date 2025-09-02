@@ -1,7 +1,7 @@
 FROM python:3.10
 
 # Set working directory
-WORKDIR /app
+WORKDIR /Adv-Auto-Filter-Bot-V2
 
 # Copy dependency file first (for caching)
 COPY requirements.txt ./
