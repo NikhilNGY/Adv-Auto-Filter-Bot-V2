@@ -1,16 +1,9 @@
-FROM python:3.10
-
-# Set working directory
+FROM python:3.10-slim
 WORKDIR /Adv-Auto-Filter-Bot-V2
 
-# Copy dependency file first (for caching)
-COPY requirements.txt ./
+COPY requirements.txt requirements.txt
+RUN pip3 install -r requirements.txt
 
-# Install dependencies
-RUN pip install --no-cache-dir -r requirements.txt
-
-# Copy the rest of the project files
 COPY . .
 
-# Start the bot
-CMD ["python3", "bot.py"]
+CMD python3 main.py
