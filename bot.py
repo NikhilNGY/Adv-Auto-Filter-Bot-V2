@@ -4,9 +4,10 @@
 
 from pyrogram import Client, __version__
 
-from . import API_HASH, APP_ID, LOGGER, BOT_TOKEN 
+# ⬇️ FIXED: use absolute imports instead of relative
+from config import API_HASH, APP_ID, LOGGER, BOT_TOKEN
+from user import User
 
-from .user import User
 
 class Bot(Client):
     USER: User = None
@@ -31,7 +32,7 @@ class Bot(Client):
         bot_details = await self.get_me()
         self.set_parse_mode("html")
         self.LOGGER(__name__).info(
-            f"@{bot_details.username}  started! "
+            f"@{bot_details.username} started!"
         )
         self.USER, self.USER_ID = await User().start()
 
