@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Bot Made By', url="https://t.me/NGYNY"
+                                    '• Nᴇᴡ Mᴏᴠɪᴇꜱ •', url="https://t.me/KR_Picture"
                                 )
                         ]
                     ]
@@ -47,12 +47,12 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Bot Made By', url='https://t.me/NGYNY'),
-        InlineKeyboardButton('Movies Channel', url ='https://t.me/Playit_kannada_movies')
+        InlineKeyboardButton('▪• Bᴀᴄᴋᴜᴘ Cʜᴀɴɴᴇʟ •', url='https://t.me/sandalwood_kannada_moviesz'),
+        InlineKeyboardButton('• Mᴀɪɴ Gʀᴏᴜᴘ •', url ='https://t.me/+x6OfRDdUPrUwZTZl')
     ],[
-        InlineKeyboardButton('Request Movies', url='https://t.me/MOVIERG_NGY')
+        InlineKeyboardButton('• Mᴀɪɴ Cʜᴀɴɴᴇʟ •', url='https://t.me/+fDkIGNmk5BU5ODVl')
     ],[
-        InlineKeyboardButton('Help ⚙', callback_data="help")
+        InlineKeyboardButton('• Hᴇʟᴘ •', callback_data="help")
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -104,3 +104,4 @@ async def about(bot, update):
         parse_mode="html",
         reply_to_message_id=update.message_id
     )
+
