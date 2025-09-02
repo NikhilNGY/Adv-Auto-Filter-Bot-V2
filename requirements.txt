@@ -1,6 +1,8 @@
+
 dnspython
 motor
 pyrogram
 pymongo
 requests
 tgcrypto
+python-dotenv
